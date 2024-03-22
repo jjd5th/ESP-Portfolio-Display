@@ -1,0 +1,37 @@
+{
+    "files.associations": {
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "functional": "cpp",
+        "random": "cpp",
+        "istream": "cpp",
+        "streambuf": "cpp",
+        "*.ipp": "cpp",
+        "chrono": "cpp",
+        "cmath": "cpp",
+        "future": "cpp",
+        "limits": "cpp",
+        "memory": "cpp",
+        "ostream": "cpp",
+        "tuple": "cpp",
+        "codecvt": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "iterator": "cpp",
+        "ratio": "cpp",
+        "type_traits": "cpp",
+        "atomic": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "iosfwd": "cpp",
+        "new": "cpp",
+        "sstream": "cpp",
+        "utility": "cpp"
+    },
+    "cmake.configureOnOpen": false,
+    "idf.adapterTargetName": "esp32s3",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ]
+}
