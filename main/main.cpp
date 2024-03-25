@@ -146,6 +146,7 @@ bmp.clear(bmp.bounds());
                 lcd_type::width*(lcd_type::width/100.0)-1,
                 lcd_type::height*(lcd_type::height/100.0)-1);
 
-    draw::line(lcd,srect16(lcd_type::width,r.y1,r.x1,0),lcd_color::red);
+    draw::line(lcd,srect16(r.x1,r.y1+64,lcd_type::width,r.y1+64),lcd_color::white);
+    draw::line(lcd,srect16(0,r.y1+96,lcd_type::width/2,r.y1+64), lcd_color::green);
 
 }
