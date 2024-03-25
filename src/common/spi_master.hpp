@@ -27,7 +27,7 @@ namespace espidf {
     public:
         
         spi_master(spi_result* out_result = nullptr, 
-            spi_host_device_t host_id=SPI2_HOST,
+            spi_host_device_t host_id=SPI1_HOST,
             gpio_num_t sclk=GPIO_NUM_7,
             gpio_num_t miso=GPIO_NUM_9,
             gpio_num_t mosi=GPIO_NUM_6,

@@ -2,9 +2,9 @@
 //#define HTCW_SSD1351_OVERCLOCK
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#include "driver/spi_master.h"
+#include "../src/common/spi_master.hpp"
 #include "driver/gpio.h"
-#include "common/tft_spi_driver.hpp"
+#include "../src/common/tft_spi_driver.hpp"
 #include <gfx.hpp>
 
 

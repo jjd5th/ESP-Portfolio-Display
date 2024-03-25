@@ -2,5 +2,9 @@
     "idf.adapterTargetName": "esp32s3",
     "idf.openOcdConfigs": [
         "board/esp32s3-builtin.cfg"
-    ]
+    ],
+    "files.associations": {
+        "type_traits": "cpp"
+    },
+    "idf.portWin": "COM5"
 }
